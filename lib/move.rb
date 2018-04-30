@@ -8,10 +8,10 @@ end
 
 # code your input_to_index and move method here!
 
-def input_to_index(move)
-  move = move.to_i - 1
+def input_to_index(choice)
+  choice = choice.to_i - 1
 end
 
-def move(array, move, character = "X")
-  array[move] = character
+def move(array, choice, character = "X")
+  array[choice] = character
 end
